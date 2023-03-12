@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Web_Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PF Lab Project</h1>
+    <div class="margin">
+<div class="calc">
+    <input type="text" name="" id="solve" readonly>
+    <br>
+    <div class="gap ">
+        <button class="clearall" onclick="clearAll('') ">AC</button>
+        <button class="symbol" onclick="removeOneByOne()">del</button>
+        <button class="symbol" onclick="digit('/')">/</button>
+        <button class="symbol" onclick="digit('*')">*</button>
+    </div>
+    
+    
+    <div>
+        <button class="no" onclick="digit(7)">7</button>
+        <button class="no" onclick="digit(8)">8</button>
+        <button class="no" onclick="digit(9)">9</button>
+        <button class="symbol" onclick="digit('-')">-</button>
+        
+    </div>
+    
+    <div>
+        <button class="no" onclick="digit(4)">4</button>
+        <button class="no" onclick="digit(5)">5</button>
+        <button class="no" onclick="digit(6)">6</button>
+        <button class="symbol" onclick="digit('+')">+</button>
+
+
+    </div>
+    
+    <div>
+        <button class="no" onclick="digit(1)">1</button>
+        <button class="no" onclick="digit(2)">2</button>
+        <button class="no" onclick="digit(3)">3</button>
+        <button class="symbol" onclick="digit('/100')">%</button>
+
+
+        
+    </div>
+    
+    <div>
+        <button class="zero"  onclick="digit(0)">0</button>
+
+        <button class="symbol" onclick="digit('.')">.</button>
+        <button class="equal" onclick="eq()">=</button>
+
+    </div>
+</div>
+<h1><a href="#">Created By M.Asad</a></h1>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

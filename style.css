@@ -1,0 +1,89 @@
+
+.calc{
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 0px auto;
+    
+    border: 2px solid black;
+}
+button{
+    padding: 20px;
+    width: 58px;
+    
+}
+.equal:hover{
+    background: linear-gradient(107deg, rgba(168, 255, 5, 0.808) 11.1%, rgba(0, 245, 131, 0.877) 95.3%) !important;
+}
+.equal{
+    background: linear-gradient(107deg, rgb(168, 255, 5) 11.1%, rgb(0, 245, 131) 95.3%) !important;
+}
+.symbol:hover{
+    background: linear-gradient(109.6deg, rgba(73, 147, 197, 0.904) 12.6%, rgba(146, 219, 213, 0.932) 91.1%);
+}
+.symbol{
+    background: linear-gradient(109.6deg, rgb(71, 165, 228) 12.6%, rgb(159, 237, 230) 91.1%);
+}
+.no:hover{
+    background: linear-gradient(179.5deg, rgba(224, 204, 72, 0.904) 3.3%, rgba(236, 151, 77, 0.904) 96%);
+
+}
+.no{
+    background: linear-gradient(179.5deg, rgb(255, 230, 69) 3.3%, rgb(255, 157, 73) 96%);
+
+}
+.zero:hover{
+    background: linear-gradient(179.5deg, rgba(224, 204, 72, 0.904) 3.3%, rgba(236, 151, 77, 0.904) 96%);
+
+}
+.zero{
+    background: linear-gradient(179.5deg, rgb(255, 230, 69) 3.3%, rgb(255, 157, 73) 96%);
+}
+.clearall:hover{
+    background: linear-gradient(107deg, rgba(209, 59, 10, 0.952) 11.1%, rgba(223, 128, 12, 0.938) 95.3%);
+}
+.clearall{
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+}
+body{
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg );
+}
+input{
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    border: 2px solid black;
+    background: linear-gradient(to top, #e46c61 0%, #880909 100%);
+}
+h1{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    
+}
+h1 a{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+h1 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #2c2929;
+}
+.gap{
+    margin-top: 10px;
+}
+.zero{
+    width: 120px;
+}
